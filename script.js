@@ -3,7 +3,7 @@ document.getElementById('push-btn').addEventListener('click', () => {
         if (permission === 'granted') {
             console.log('Push notifications granted!');
             // You can now send a push notification via Gozen Notify
-            subscribeUserToPush();
+            //subscribeUserToPush();
         } else {
             console.log('Push notifications denied!');
         }
